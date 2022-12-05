@@ -29,7 +29,8 @@ Quando si aggiunge un valore dentro una scatola di tipo "const" non si puo piu c
 */
 
 /* var let name;                     //Inizializzazione della variabile
-   name="Amonov Shahruz";            //Assegnazione di un valore alla variabile;
+   name="Amonov Shahruz";            //Assegnazione di un valore alla variabile
+   console.log(name);
 
 
 /* ESERCIZIO 3
@@ -38,12 +39,14 @@ Quando si aggiunge un valore dentro una scatola di tipo "const" non si puo piu c
 
 /* let sum;
   sum=(12+20);
+  console.log(sum);
 
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
   let x;
   x=12;
+  console.log(x);
 */
 
 
@@ -53,11 +56,14 @@ Quando si aggiunge un valore dentro una scatola di tipo "const" non si puo piu c
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 
   name="Amonov";
+  console.log(name);
   
   Esempio:
   const prova;
   prova=25;
+  console.log(prova);
   prova=18;
+  console.log(prova);
 
   Sicuramente il compilatore darà un errore perchè const è una constante e una volta inserito un valore al suo interno 
   non si puo piu cambiarlo
@@ -69,6 +75,7 @@ Quando si aggiunge un valore dentro una scatola di tipo "const" non si puo piu c
   let x=12;
   let sum;
   sum=(4-12);
+  console.log(sum);
 */
 
 
@@ -80,7 +87,7 @@ Quando si aggiunge un valore dentro una scatola di tipo "const" non si puo piu c
 
 /*name1="john";
 name2="John";
-name1===name ;
+console.log(name1===name2);
 
 Il compilatore darà false
 
@@ -88,7 +95,7 @@ EXTRA:
 name1="john";
 name2="John";
 name3=name2.toLowerCase();
-name3===name1 ;
+console.log(name3===name1);
 
 IL compilatore darà true
 */
