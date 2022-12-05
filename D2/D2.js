@@ -11,38 +11,66 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
+/*Intanto i datatype sono delle variabili. Cosa sono delle variabili? Delle variabili sono delle scatolette che hanno delle etichette dove possiamo inserire qualcosa. Ovvero
+sono degli spazi di memoria a breve termine (RAM) riservati dalla macchina. Quando andiamo a creare una variabile , ovvero andiamo a "creare la scatoletta" essa 
+puo avere dentro dei numeri, dei valori boleani( ovvero si o no, vero o falso, bianco o nero), delle stringhe(un testo, un nome, un cognome) oppure essere vuote .
+Quando andiamo a creare una variabile riserviamo dello spazio in memoria, ma per indicare che la scatoletta è vuota , dentro viene inserito "undefined" per indicare che la scatola
+c'è ma non è stata ancora riempita. Invece se è stata riempita e poi svuotata il valore al suo interno sarà , ovvero si rappresenterà con "NULL".
+Quindi i datatype in Javascript, possono essere numeri, testi, boleani oppure NULL e UNDEFINED, e ognugna di loro avrà caratteristiche diverse e dimensioni diverse.
+Inoltre le scatole  possono essere delle var ( che non si utilizza piu è datato) oppure "const" o "let"
+Quando si aggiunge un valore dentro una scatola di tipo "const" non si puo piu cambiare il suo valore invece dentro let si puo sempre andare a prendere e inserirne un' altro.
+
+
+
 
 /* ESERCIZIO 2
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* var let name;                     //Inizializzazione della variabile
+   name="Amonov Shahruz";            //Assegnazione di un valore alla variabile;
+
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* let sum;
+  sum=(12+20);
+
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
+  let x;
+  x=12;
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
+
+  name="Amonov";
+  
+  Esempio:
+  const prova;
+  prova=25;
+  prova=18;
+
+  Sicuramente il compilatore darà un errore perchè const è una constante e una volta inserito un valore al suo interno 
+  non si puo piu cambiarlo
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
+  let x=12;
+  let sum;
+  sum=(4-12);
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -50,4 +78,17 @@ REGOLE
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*name1="john";
+name2="John";
+name1===name ;
+
+Il compilatore darà false
+
+EXTRA:
+name1="john";
+name2="John";
+name3=name2.toLowerCase();
+name3===name1 ;
+
+IL compilatore darà true
+*/
