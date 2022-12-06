@@ -28,55 +28,53 @@ Quando si aggiunge un valore dentro una scatola di tipo "const" non si puo piu c
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* var let name;                     //Inizializzazione della variabile
-   name="Amonov Shahruz";            //Assegnazione di un valore alla variabile
-   console.log(name);
+  let nameex2;                     //Inizializzazione della variabile
+  nameex2="Amonov Shahruz";            //Assegnazione di un valore alla variabile
+  console.log(nameex2);
 
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/* let sum;
+  let sum;
   sum=(12+20);
   console.log(sum);
 
 
 /* ESERCIZIO 4
- Crea una variable di nome "x" e assegna ad essa il numero 12.
+ Crea una variable di nome "x" e assegna ad essa il numero 12. */
   let x;
   x=12;
   console.log(x);
-*/
+
 
 
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
-  Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
+  Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const. */
 
-  name="Amonov";
-  console.log(name);
-  
-  Esempio:
-  const prova;
-  prova=25;
-  console.log(prova);
-  prova=18;
-  console.log(prova);
+  let nameex5="Amonov";
+  console.log(nameex5);
+  //const prova;
+  //prova=25;
+  //console.log(prova);
+ // prova=18;
+  //console.log(prova);
 
-  Sicuramente il compilatore darà un errore perchè const è una constante e una volta inserito un valore al suo interno 
+ /* Sicuramente il compilatore darà un errore perchè const è una constante e una volta inserito un valore al suo interno 
   non si puo piu cambiarlo
 */
 
 
 /* ESERCIZIO 6
- Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
-  let x=12;
-  let sum;
-  sum=(4-12);
-  console.log(sum);
-*/
+ Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).*/
+  let xes6=12;
+  let sumex6;
+  sumex6=(4-12);
+  console.log(sumex6);
+
 
 
 /* ESERCIZIO 7
@@ -85,17 +83,15 @@ Quando si aggiunge un valore dentro una scatola di tipo "const" non si puo piu c
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/*name1="john";
-name2="John";
+let name1="john";
+let name2="John";
 console.log(name1===name2);
 
-Il compilatore darà false
 
-EXTRA:
+
+
 name1="john";
 name2="John";
 name3=name2.toLowerCase();
 console.log(name3===name1);
 
-IL compilatore darà true
-*/
